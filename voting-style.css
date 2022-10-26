@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	font-family: 'Inter', sans-serif;
+}
+
+/* Header code starts here */
+
+header{
+	height: 45%;
+	position: relative;
+	/*border: 1px solid red;*/
+}
+
+header .logo {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	text-align: center;
+	color: #ffffff;
+	background: #111;
+	font-size: 1.8rem;
+	font-weight: 700;
+    z-index: 10000;
+
+}
+header .logo a{
+	text-decoration: none;
+	color: #ffffff;
+}
+header .logo img{
+	width: 50px;
+	height: 30px;
+}
+header h1{
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+	line-height: 100px;
+}
+
+header h4{
+	font-size: 1rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.text-center{
+	text-align: center;
+}
+/*
+.menu{
+	text-align: center;
+}
+*/
+.wrapper{
+	width: 100%;
+	border-top: 1px solid #C4C4C4;
+	border-bottom: 1px solid #C4C4C4;
+	padding: 5px;
+	margin: 0px auto;
+}
+ .menu ul{
+	list-style-type: none;
+}
+
+.menu ul li{
+   display: inline;
+   padding: 5px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #111;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #C4C4C4;
+}
+.wrapper ul .link-admin{
+  transition: all 0.3s;
+}
+.wrapper ul .link-admin:hover{
+ 
+  color: #BD2929;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #BD2929;
+  transition: all 0.3s;
+}
+
+.wrapper ul .link-music{
+  transition: all 0.3s;
+}
+.wrapper ul .link-music:hover{
+ 
+  color: #D82DFF;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #D82DFF;
+  transition: all 0.3s;
+}
+
+.wrapper ul .link-speaking{
+  transition: all 0.3s;
+}
+.wrapper ul .link-speaking:hover{
+ 
+  color: #FF7A2D;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FF7A2D;
+  transition: all 0.3s;
+}
+
+.wrapper ul .link-entrepreneur{
+  transition: all 0.3s;
+}
+.wrapper ul .link-entrepreneur:hover{
+ 
+  color: #01A9F4;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #01A9F4;
+  transition: all 0.3s;
+}
+/* Header code ends here */
+
+
+/* Body Code starts here */
+
+.main-text{
+	width: 50%;
+	margin: 0px auto;
+	margin-top: 80px;
+	/*border: 1px solid #01A9F4;*/
+}
+.main .main-text h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+ .fa-solid{
+  font-size: 1.6rem;
+  color: #01A9F4;
+  transform: rotateY(180deg);
+  margin-left: 250px;
+  margin-top: -180px;
+}
+
+.imgs .decagon{
+  width: 30px;
+  height: 30px;
+  margin-bottom: -90px;
+  margin-left: -320px;
+}
+.pics .img{
+	width: 49px;
+	height: 49px;
+	border-radius: 50px;
+	position: relative;
+
+}
+
+.pics .pic .one{
+    top: -40px;
+    left: 300px;
+}
+.pics .pic .two{
+	top: -220px;
+	left: 40px;
+	float: left;
+
+}
+.pics .pic .three{
+	top:-200px;
+	left: 350px;
+	transform: rotate3d(-83deg);
+}
+
+.pics .pic .four{
+	float: left;
+	left: 50px;
+	top: -140px;
+}
+.page-wrapper{
+	min-height: 100%;
+}
+footer{
+	position: relative;
+	min-height: 40px;
+}
+footer .logo {
+	height: 40px;
+	width: 100%;
+	top: 0;
+	padding-right: 5%;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+	background: #111;
+	font-size: 1.8rem;
+	font-weight: 700;
+
+}
+footer .logo a{
+	text-decoration: none;
+	color: #ffffff;
+}
+footer .logo img{
+	width: 50px;
+	height: 30px;
+}
+footer .logo i{
+	font-size: 1rem;
+	font-family: 'Poppins', sans-serif;
+}
+footer .logo i .fa{
+	font-weight: 200;
+}
+/* Music page code starts here*/
+/*.music .photos{
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 90%;
+	padding-left: 5%;
+}
+.music .photos .contestants{
+    width: 300px;
+	margin: 15px;
+	border: 15px solid #fff;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.09)
+}
+
+.music .photos .contestants .imgBx{
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
+.music .photos .contestants .imgBx .arrow{
+	width: 58px;
+    height: 66px;
+    float: right;
+    left: 220px;
+    top: -15px;
+
+}
+.music .photos .contestants .imgBx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+.category{
+     padding: 4% 0;
+
+}
+.photos{ 
+	width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-bottom: 40rem;
+ }
+
+.contestants{
+    width: 300px;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    float: left;
+    border-radius: 15px;
+    border: 15px solid #fff;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.09);
+}
+
+
+.imgBx{
+	position: relative;
+	width: 20%;
+    float: left;
+    margin: 2%;
+}
+
+.img-responsive{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:0.3s;
+}
+.img-responsive:hover{
+	box-shadow: 0 5px 35px rgba(0,0,0,0.09);
+	transition:0.3s;
+}
+
+.music .photos .contestants .imgBx img:hover{
+	box-shadow: 10px 5px 35px rgba(0,0,0,0.09)
+}
+.music .photos .contestants .imgBx a i{
+  font-size: 1.6rem;
+  color: blue;
+}
+.music .photos .contestants .text{
+    padding: 0px 0px 5px;
+    
+}
+
+.music .photos .contestants .text h3{
+	background: #111;
+	color: #fff;
+	padding-left: 5px; 
+}
+
+
+/* Music page code ends here*/
+
+
+/* Voting-payment code starts here */
+  .voting-payment{
+   	position: relative;
+  	display: flex;
+  	justify-content: space-between;
+    width: 50%;
+  	margin: 0px auto;
+  	padding: 6%;
+    background: #ffffff;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.09);
+  }
+  
+  .voting-payment .content{
+    position: relative;
+ 	width: 48%;
+  }
+
+  #paymentForm .form-group label{
+    display: block;
+    padding-bottom: 2%;
+    font-size: 0.9rem;
+  }
+
+   #paymentForm .form-group input{
+   	 padding-bottom: 4%;
+
+   }
+   #paymentForm .form-group #contestant_name{
+     pointer-events: none;
+
+   }
+   #paymentForm .form-submit{
+   	padding-top: 3%;
+   }
+   #paymentForm .form-submit button{
+   	padding: 3%;
+   	color: #ffffff;
+   	background: #0075FF;
+   	border: none;
+   	transition: all 0.3s;
+   }
+   #paymentForm .form-submit button:hover{
+     background:   #01A9F4;
+     transition: all 0.3s;
+    }
+
+/* Voting-payment code ends here */
+
+/* Pay code starts here */
+.voting-payment1{
+    position: relative;
+  	display: flex;
+    width: 30%;
+  	margin-left: 35%;
+    margin-top: 1%;
+  	padding: 6%;
+    background: #ffffff;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.09)
+}
+
+.voting-payment1 .content1 form button{
+	margin-top: 5%;
+	margin-left: 20%;
+	padding: 3%;
+   	color: #ffffff;
+   	background: #0075FF;
+   	border: none;
+   	transition: all 0.3s;
+}
+.voting-payment1 .content1 form button{
+	background:   #01A9F4;
+     transition: all 0.3s;
+}
+     
+
+.voting-payment1 .content1 .form span{
+   text-align: center;
+   padding-left: 10%;
+} 
+/* Success page code starts here */
+  
+  .success{
+  	background: #ffffff;
+  	width: 40%;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.09);
+    margin: 0px auto;
+    height: 354px;
+  }
+   .success .message{
+   	 padding-top: 15%; 
+   }
+      .success .message{
+     text-align:center;
+     font-size: 1.1rem;
+   }
+/* Success page code ends here */
+/* Body Code ends here */
+
+
+
+
+
+
+/* Admin Code starts here */
+.tbl-full{
+	width: 60%;
+	padding-left: 20%;
+}
+
+
+table tr th{
+	border-bottom: 1px solid #111;
+	padding: 2%;
+	padding-top: 2%;
+
+	
+}
+table tr td{
+	padding: 2%;
+	padding-left: 8%;
+}
+table .tbl-30 th{
+	border-bottom: 1px solid #111;
+	padding: 2%;
+	padding-top: 2%;
+	padding-left: 40px;
+	text-align: center;
+	min-width: 200px;
+	
+}
+.btn-secondary{
+	text-decoration:none;
+	padding: 2%;
+	margin-top: 10px;
+	color: #ffffff;
+	background-color: #111;
+	text-align:center;
+	transition: 0.5s;
+}
+.btn-secondary:hover{
+	background: #ffffff;
+	color: #111;
+	transition: 0.5s;
+}
+/* Add-admin Code starts here */
+ header a {
+    font-size: 1rem;
+ 	font-weight: 500;
+ 	text-align:center;
+ 	text-decoration: none;
+ 	color: #111;
+ 	
+ }
+ .btn-secondary2{
+    text-decoration:none;
+	padding: 1%;
+	margin-top: 10px;
+	color: #ffffff;
+	background-color: #111;
+	text-align:center;
+	transition: 0.5s;
+
+ }
+ .btn-secondary2:hover{
+    background: #ffffff;
+	color: #111;
+	transition: 0.5s;
+}
+/* Add-admin Code ends here */
+
+/* Admin-login code starts here */
+ 
+ .login{
+   border: 1px solid grey;
+   width: 30%;
+   margin: 0px auto;
+   margin-top: 10%;
+   padding: 1%;
+   background: transparent;
+}
+
+.text-center1{
+	text-align: center;
+	color: #111;
+}
+.text-center2{
+	text-align:center;
+	color: #980505;
+}
+ .text-center1 input{
+ 	width: 60%;
+ 	text-align:center;
+ }
+.btn-primary{
+    background: #111;
+    color: #ffffff;
+ }
+ .btn-primary:hover{
+ 	background:#2D2D2D;
+ 	transition: 0.5s;
+ }
+/* Admin-login code ends here */
+
+
+
+/* Admin Code ends here */
+
+@media only screen and (max-width: 900px){
+  header h1{
+  	font-size: 1.5rem;
+  }
+
+  .main-text{
+	 width: 80%;
+	 margin-top: 150px;
+  }
+  .main .main-text h2{
+  	font-size: 1.5rem;
+  }
+
+  .imgs .fa-solid{
+  	margin-left: 280px;
+  }
+
+  .imgs .decagon{
+
+  	margin-left: -90px;
+  	margin-bottom: -150px;
+  }
+.pics .img{
+	width: 39px;
+	height: 39px;
+}
+  .pics .pic .one{
+    top: -50px;
+    left: -130px;
+}
+.pics .pic .two{
+	top: -290px;
+	left: 10px;
+	float: right;
+
+}
+.pics .pic .three{
+	top:-300px;
+	left: -100px;
+	transform: rotateY(160deg);
+}
+
+.pics .pic .four{
+	float: right;
+	left: 10px;
+	top: -150px;
+}
+.tbl_full{
+	width: 70%;
+	padding-left: 10px;
+}
+
+table tr th{
+	padding-left: 20px;
+}
+table tr td{
+	padding-left: 20px;
+}
+
+table .tbl-30 th{
+	border-bottom: 1px solid #111;
+	padding:2%;
+	padding-top: 2%;
+	text-align: center;
+	min-width: 30px;
+	padding-left: 20px;
+	font-size: 0.8rem;
+}
+.login{
+	margin-top: 40%;
+	width: 70%;
+}
+
+.voting-payment{
+	flex-direction: column;
+	width: 70%;
+}
+.voting-payment .content{
+   position: relative;
+   width: 100%;
+}
+
+.success{
+	width: 70%;
+}
+
+.success .message{
+	font-size: 1rem;
+}
+
+.voting-payment1{
+	width: 60%;
+	margin-left: 20%;
+}
+}
